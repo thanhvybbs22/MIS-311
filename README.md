@@ -26,43 +26,38 @@ After deleting 4 rows, the total number of rows is **198**.
 
 ![Picture2](./Pictures/Picture2.png)  
 
+
 Secondly, in column **B (City)**, there are **2 missing values** in rows 24 and 31.  
-
 ![Picture3](./Pictures/Picture3.png)  
-
 These can be imputed by comparing with the **Postal Code**.  
 The postal codes **98012** and **98506** correspond to the cities of **Bothell** and **Olympia**, respectively.  
-
 ![Picture4](./Pictures/Picture4.png)  
 
+
+
 Thirdly, in column **E (Make)** there are **2 missing values** in rows 16 and 97.  
-
 ![Picture5](./Pictures/Picture5.png)  
-
 They can be attributed by comparing with the **Model**.  
 The **VOLT** model is mainly produced by **CHEVROLET**, and the **MODEL 3** model is mainly produced by **TESLA**.  
-
 ![Picture6](./Pictures/Picture6.png)  
 
+
+
 Next, in column **F (Model)** there is **1 missing value** in row 5.  
-
 ![Picture7](./Pictures/Picture7.png)  
-
 Compared with the **Model Year**, in 2015 FIAT manufacturers only produced one electric model — the **FIAT 500**.  
-
 ![Picture8](./Pictures/Picture8.png)  
 
+
+
 Lastly, in column **D (Model Year)** there are **2 missing values** in rows 52 and 63.  
-
 ![Picture9](./Pictures/Picture9.png)  
-
 I decided to fill in **N/A** instead of imputing the mode, because filling in the mode could artificially increase the number of cars registered in the most common year, skewing the chart.  
+
 
 Duplicate values were also removed from the Excel file to ensure accuracy.  
 According to the notification, **6 duplicate rows** were found and removed, leaving **196 unique entries**.  
-
 Keeping duplicates would have affected the summary statistics, visualizations, and overall interpretation of the data. Each vehicle is only represented once, which improves the validity and clarity of the results.  
-
 ![Picture10](./Pictures/Picture10.png)  
 
 ---
