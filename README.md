@@ -1,6 +1,6 @@
 # Part 1. Data Analysis and Insight  
 
-## Data Overview  
+## 1. Data Overview  
 
 The dataset titled **“Electric Vehicles”** contains an overview of the distribution of electric vehicles in several cities in the state of Washington, USA. Although the exact source of the data is not specified in the file, it was likely obtained from a vehicle registration database with **202 records and 6 fields**.  
 
@@ -17,7 +17,7 @@ This data can be used to analyze popular electric vehicle models or the market s
 
 ---
 
-## Data Cleaning  
+## 2. Data Cleaning  
 
 Using the filter function to detect **11 missing data**.  
 Firstly, in column **A (Vehicle Identification Number)** there are **4 missing values** in rows 70, 74, 79, and 93.  
@@ -67,7 +67,7 @@ Keeping duplicates would have affected the summary statistics, visualizations, a
 
 ---
 
-## Descriptive Statistics  
+## 3. Descriptive Statistics  
 
 ### Insight 1: Tesla dominates electric vehicle market share  
 
